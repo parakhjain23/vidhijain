@@ -1,0 +1,34 @@
+/*
+  Variant 3 — "The appointment first".
+  Booking is the whole first screen. A deep slate panel carries the identity
+  on one side; the surfaces beside it stay near-white so the form reads fast.
+*/
+.v3 {
+  --page: #ffffff;
+  --card: #ffffff;
+  --raised: #f4f4f6;
+  --hairline: rgb(26 29 38 / 0.12);
+  --hairline-soft: rgb(26 29 38 / 0.07);
+
+  --text: #1a1d26;
+  --text-secondary: #4d5260;
+  --text-muted: #6e7483;
+
+  /* Warm clay against the slate: dark enough for text on white. */
+  --accent: #a2503a;
+  --accent-hover: #8a4230;
+  --accent-wash: #f7eeea;
+
+  /* The panel: one deep surface the identity sits on. */
+  --panel: #232838;
+  --panel-text: #eef0f5;
+  --panel-muted: #a2a9bd;
+  --panel-hairline: rgb(238 240 245 / 0.14);
+
+  background: var(--page);
+  color: var(--text);
+}
+
+.v3 .tnum {
+  font-variant-numeric: tabular-nums;
+}

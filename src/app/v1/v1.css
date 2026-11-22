@@ -1,0 +1,24 @@
+/*
+  Variant 1 — the original daylit-clinic design.
+  Scoped so it cannot collide with the v3 theme now serving at "/".
+*/
+.v1 {
+  --page: #faf8f5;
+  --card: #ffffff;
+  --raised: #f2efe9;
+  --hairline: rgb(31 27 22 / 0.10);
+  --hairline-soft: rgb(31 27 22 / 0.06);
+
+  --text: #1f1b16;
+  --text-secondary: #5e554a;
+  --text-muted: #7b7266;
+
+  --accent: #3f7d62;
+  --accent-hover: #356a53;
+  --accent-wash: #eef3f0;
+
+  --daylight: #e8eef3;
+
+  background: var(--page);
+  color: var(--text);
+}

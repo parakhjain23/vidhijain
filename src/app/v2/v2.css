@@ -1,0 +1,35 @@
+/*
+  Variant 2 — "The clinical record".
+  A printed-record world: warm paper, one ink, a rule under every heading.
+  Colour is almost absent so the type carries the page.
+*/
+.v2 {
+  --page: #f6f2ea;
+  --card: #fffdf8;
+  --raised: #ece6da;
+  --hairline: rgb(38 32 24 / 0.14);
+  --hairline-soft: rgb(38 32 24 / 0.08);
+
+  --text: #262018;
+  --text-secondary: #5a5043;
+  --text-muted: #7d7365;
+
+  /* A single oxblood ink, used only where something is chosen. */
+  --accent: #8c3b2e;
+  --accent-hover: #743025;
+  --accent-wash: #f2e7e2;
+
+  background: var(--page);
+  color: var(--text);
+}
+
+.v2 .rule {
+  border-top: 1px solid var(--hairline);
+}
+
+/* Figures and meta are set in mono, as a record would be. */
+.v2 .meta {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
